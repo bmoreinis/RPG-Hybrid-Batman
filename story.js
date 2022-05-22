@@ -1,4 +1,4 @@
-/*global displayStory setOptions gameProgress optionFlags clearOptionFlags */
+/* global displayStory setOptions gameProgress optionFlags clearOptionFlags */
 // rpg-tollbooth.js
 window.onload = start;
 
