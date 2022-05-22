@@ -112,8 +112,8 @@ function getScene(record_id, resume = false) {
       let { title, story, special } = data.fields;
       if (data.fields.special) {
         switch(special) {
-          case "M8":
-            alert("Play Mastermind!");
+          case "MM":
+            window.location.href = "http://mastermind-averages.bmoreinis.repl.co/";
             break;
           default:
             console.log('special:', data.fields.special);
