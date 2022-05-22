@@ -113,7 +113,7 @@ function getScene(record_id, resume = false) {
       if (data.fields.special) {
         switch(special) {
           case "MM":
-            window.location.href = "http://mastermind-averages.bmoreinis.repl.co/";
+            window.open("http://mastermind-averages.bmoreinis.repl.co/", '_blank');  
             break;
           default:
             console.log('special:', data.fields.special);
