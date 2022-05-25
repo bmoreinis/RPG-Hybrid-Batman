@@ -4,7 +4,8 @@ window.onload = start;
 
 // Replace with your own AirTable API key.
 // Normally, you will want to keep this private.
-const key = 'keyJLBdH3ktq1BJ8L';
+var pw = prompt("Enter password to play");
+const key = 'keyJLBdH3kt'+pw;
 const app_id = 'appUOVbjlWQtGuhQ2';
 const base_url = `https://api.airtable.com/v0/${app_id}`;
 
